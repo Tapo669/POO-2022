@@ -13,7 +13,7 @@ public class Principal_A {
     public static void main(String[] args){
         
         // Instancias de la clase Hija Casa y Apartamento
-
+        
         Casa Casa1 = new Casa("Block", "Centrico", 500.00, 2, 35, "Agua", "Luz", "Juan Alberto,", 45);
         Apartamento Apartamento1 = new Apartamento(25, 450.0, false, 1, "UtilName", "Agua", "Luz", "Luis Angel", 30);
         
@@ -22,7 +22,7 @@ public class Principal_A {
         //  Impresion de la clase Hija Casa
         
         System.out.println("// Casa //");
-
+        
         System.out.print("La casa es suya(true / false): ");
         Casa1.setPertenecia(ObjIn.nextBoolean());   // Asignacion del valor introducido por teclado al Atributo "pertenencia"
         

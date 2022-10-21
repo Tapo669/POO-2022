@@ -17,7 +17,7 @@ public class Principal_A {
     
         Electrodomestico ElecDomestic = new Electrodomestico("Mate20Pro", "Huawei", 1000, 450);
         Computadora PC = new Computadora(65, 75, 1.3, "15db000dx", "HP", 4500, 500);
-        Televisor Tele = new Televisor("Fr1t0s","WebOS", 2000, 50); 
+        Televisor Tele = new Televisor(60, "Fr1t0s","WebOS", 2000, 50); 
         
         // Impresion de Clase Padre
     

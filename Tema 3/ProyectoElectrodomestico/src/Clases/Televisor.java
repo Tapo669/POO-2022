@@ -24,9 +24,12 @@ public class Televisor extends Electrodomestico{    // Herencia de Electrodomest
         this.FPS = FPS;
     }
 
-    public Televisor(String modelo, String marca, double precio, int cantidadVendida) {
+    public Televisor(int FPS, String modelo, String marca, double precio, int cantidadVendida) {
         super(modelo, marca, precio, cantidadVendida);
+        this.FPS = FPS;
     }
+
+
 
 
     //  Setter & Getter
