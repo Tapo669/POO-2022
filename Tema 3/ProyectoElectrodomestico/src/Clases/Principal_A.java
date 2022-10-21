@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Clases;
-import java.util.Scanner; // importe de la clase Scanner
+import java.util.Scanner; // Import de la clase Scanner
 
 /**
  *
