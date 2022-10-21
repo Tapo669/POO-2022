@@ -32,7 +32,7 @@ public class Principal_A {
         PC.mostrarDatosComputadora(); // Funcion del Objeto [PC] de la clase Hija Computadora
         
         
-        // impresion de la Clase Hija Computadora
+        // Impresion de la Clase Hija Computadora
         
         Scanner ObjIn = new Scanner(System.in); // Instancia de Scanner
         
