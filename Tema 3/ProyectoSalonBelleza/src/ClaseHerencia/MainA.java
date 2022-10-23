@@ -26,10 +26,10 @@ public class MainA {
        
         
         //  Imprecion de Clase Padre "Empresa"
-        
+        //  Instancia A
         System.out.println("El nombre de la empresa es: " + EmpresaA.getNombreEmpresa());
         System.out.println("El codigo postal de la empresa es: " + EmpresaA.getCodigoPostal());
-        
+        //  Instancia B
         System.out.println("El nombre de la empresa es: " + EmpresaB.getNombreEmpresa());
         System.out.println("El codigo postal de la empresa es: " + EmpresaB.getCodigoPostal());
         
