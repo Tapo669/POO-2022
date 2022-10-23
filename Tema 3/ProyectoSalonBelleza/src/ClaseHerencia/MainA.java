@@ -34,6 +34,13 @@ public class MainA {
         System.out.println("El codigo postal de la empresa es: " + EmpresaB.getCodigoPostal());
         
         
+        //  Imprecion de la Clase Hija "Cliente"
+        
+        ClienteA.mostrarDatosCliente();
+        ClienteA.mostrarDatosCliente_Empreza();
+        ClienteB.mostrarDatosCliente();
+        ClienteB.mostrarDatosCliente_Empreza();
+        
     }
     
 }
