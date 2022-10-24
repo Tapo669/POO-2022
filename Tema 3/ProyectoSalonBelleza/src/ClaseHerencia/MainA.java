@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ClaseHerencia;
+package ClaseHerencia;  
 
 /**
  *
@@ -61,9 +61,6 @@ public class MainA {
         TrabajadorA.mostrarDatosTrabajadorEmpresa();    //  Instancia A
         System.out.println(" ");
         TrabajadorB.mostrarDatosTrabajadorEmpresa();    //  Instancia B
-        System.out.println(" ");
-        
-        
+        System.out.println(" ");        
     }
-    
 }
