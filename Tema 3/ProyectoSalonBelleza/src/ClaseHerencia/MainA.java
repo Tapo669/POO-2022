@@ -26,20 +26,43 @@ public class MainA {
        
         
         //  Imprecion de Clase Padre "Empresa"
+        System.out.println("//--- Empresa ---//");
         //  Instancia A
-        System.out.println("El nombre de la empresa es: " + EmpresaA.getNombreEmpresa());
-        System.out.println("El codigo postal de la empresa es: " + EmpresaA.getCodigoPostal());
+        System.out.println("Empresa: " + EmpresaA.getNombreEmpresa());
+        System.out.println("Codigo postal: " + EmpresaA.getCodigoPostal());
+        System.out.println(" ");
+        
         //  Instancia B
-        System.out.println("El nombre de la empresa es: " + EmpresaB.getNombreEmpresa());
-        System.out.println("El codigo postal de la empresa es: " + EmpresaB.getCodigoPostal());
+        System.out.println("Empresa: " + EmpresaB.getNombreEmpresa());
+        System.out.println("Codigo postal: " + EmpresaB.getCodigoPostal());
+        System.out.println(" ");
         
         
         //  Imprecion de la Clase Hija "Cliente"
+        System.out.println("//--- Cliente ---//");
         
-        ClienteA.mostrarDatosCliente();
-        ClienteA.mostrarDatosCliente_Empreza();
-        ClienteB.mostrarDatosCliente();
-        ClienteB.mostrarDatosCliente_Empreza();
+        ClienteA.mostrarDatosCliente(); //  Instancia A
+        System.out.println(" ");
+        ClienteB.mostrarDatosCliente(); //  Instancia B
+        System.out.println(" ");
+        ClienteA.mostrarDatosCliente_Empreza(); //  Instancia A
+        System.out.println(" ");
+        ClienteB.mostrarDatosCliente_Empreza(); //  Instancia B
+        System.out.println(" ");
+        
+        
+        //  Imprecion de la Clase Hija "Trabajador"
+        System.out.println("//--- Trabajador ---//");
+
+        TrabajadorA.mostrarDatosTrabajador();   //  Instancia A
+        System.out.println(" ");
+        TrabajadorB.mostrarDatosTrabajador();   //  Instancia B
+        System.out.println(" ");
+        TrabajadorA.mostrarDatosTrabajadorEmpresa();    //  Instancia A
+        System.out.println(" ");
+        TrabajadorB.mostrarDatosTrabajadorEmpresa();    //  Instancia B
+        System.out.println(" ");
+        
         
     }
     

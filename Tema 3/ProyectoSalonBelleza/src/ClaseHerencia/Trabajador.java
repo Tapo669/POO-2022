@@ -18,11 +18,23 @@ public class Trabajador extends Empresa{    // Herencia de clase "Empresa"
     
     public void mostrarDatosTrabajador(){
     
+        System.out.println("Numero de Gafete: " + numeroGafete);
+        System.out.println("Cantidad de cortes de cabello por mes: " + cantidadCortesCabelloMes);
+        System.out.println("Precio por corte: " + precioXCorte);
+        
     }
     
     public void mostrarDatosTrabajadorEmpresa(){
+        
+        System.out.println("Numero de Gafete: " + numeroGafete);
+        System.out.println("Cantidad de cortes de cabello por mes: " + cantidadCortesCabelloMes);
+        System.out.println("Precio por corte: " + precioXCorte);
+        System.out.println("Nombre de la Empesa: " + nombreEmpresa);
+        System.out.println("Codigo Postal: " + codigoPostal);
     
     }
+    
+        //  Constructores clase "Trabajador"
 
     public Trabajador(int numeroGafete, int cantidadCortesCabelloMes, int precioXCorte, String nombreEmpresa, int codigoPostal) {
         super(nombreEmpresa, codigoPostal);

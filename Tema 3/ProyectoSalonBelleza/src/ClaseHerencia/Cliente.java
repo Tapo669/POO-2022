@@ -10,28 +10,30 @@ package ClaseHerencia;
  */
 public class Cliente extends Empresa{   //  Herencia de clase Empresa
     
-    String cliente; //  Atributos de la clase Hija Cliente
+    //  Atributos o Variables de la clase "Cliente"
+    
+    String cliente;
     int edad;
     
+    //  Metodos o Funciones de la clase "Cliente"
     
-    
-    public void mostrarDatosCliente(){  //  Función clase Hija "Cliente"
+    public void mostrarDatosCliente(){
         
-        System.out.print("Nombre: " + cliente);
-        System.out.print("Edad: " + edad);
+        System.out.println("Cliente: " + cliente);
+        System.out.println("Edad: " + edad);
 
     }
     
-    public void mostrarDatosCliente_Empreza(){  //  Función clase Hija "Cliente"
+    public void mostrarDatosCliente_Empreza(){
         
-        System.out.print("Nombre: " + cliente);
-        System.out.print("Edad: " + edad);
-        System.out.print("Salon de Belleza: " + nombreEmpresa);
-        System.out.print("Codigo Postal:" + codigoPostal);
+        System.out.println("Cliente: " + cliente);
+        System.out.println("Edad: " + edad);
+        System.out.println("Salon de Belleza: " + nombreEmpresa);
+        System.out.println("Codigo Postal:" + codigoPostal);
         
     }
 
-    //  Constructores, Setter & Getter
+    //  Constructores clase "Cliente"
     
     public Cliente(String cliente, int edad, String nombreEmpresa, int codigoPostal) {
         super(nombreEmpresa, codigoPostal);
@@ -40,22 +42,6 @@ public class Cliente extends Empresa{   //  Herencia de clase Empresa
     }
 
     public Cliente() {
-    }
-
-    public String getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
     }
 }
 
